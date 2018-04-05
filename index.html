@@ -8,32 +8,53 @@
 </head>
 <body>
 
-<header role="banner">
-  <h1>Pangolin<h1>
-  <nav role="navigation">
-    <ul>
-      <li> <a href="#description">Description</a></li>
-      <li> <a href="#behaviour">Behaviour</a></li>
-      <li> <a href="#conservation">Conservation</a></li>
-    </ul>
-  </nav>
-<header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-<main role="main">
-  <section id="description" tabindex="0">
-    <h2>Description</h2>
-  </section>
+  <header role="banner">
+    <h1>Pangolin<h1>
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul>
+        <li> <a href="#description">Description</a></li>
+        <li> <a href="#behaviour">Behaviour</a></li>
+        <li> <a href="#conservation">Conservation</a></li>
+      </ul>
+    </nav>
+  <header>
 
-  <section id="behaviour" tabindex="0">
-    <h2>Behaviour</h2>
-  </section>
+  <main role="main" id="main" tabindex="0">
+    <img src="images/map.jpg" alt="" aria-details="countries">
+
+    <section id="description" tabindex="0">
+      <h2>Description</h2>
+
+      <div id="countries">
+        <h3>Some countries where pangolins are found</h3>
+        <ol>
+          <li>Botswana</li>
+          <li>Kenya</li>
+          <li>Mozambique</li>
+          <li>Namibia</li>
+          <li>South Africa</li>
+          <li>Tanzania</li>
+          <li>Uganda</li>
+          <li>Zambia</li>
+          <li>Zimbabwe</li>
+        </ol>
+    </section>
+
+    <section id="behaviour" tabindex="0">
+      <h2>Behaviour</h2>
+    </section>
 
 
-  <section id="conservation" tabindex="0">
-    <h2>Conservation</h2>
-  </section>
-</main>
+    <section id="conservation" tabindex="0">
+      <h2>Conservation</h2>
+    </section>
+  </main>
 
-<footer>
-  <small>&copy; 1892 Pangolin</small>
-</footer>
+  <footer role="contentinfo">
+    <small>&copy; 1892 Pangolin</small>
+  </footer>
